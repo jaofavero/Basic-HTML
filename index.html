@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML's Abstract</title>
+  </head>
+  <body>
+    <header>
+    	<h1> What can I do with HTML</h1>
+    </header>
+	<section>
+	<!-- Comment, this don't show in the web browser-->
+		<article>
+			<div>
+				<hr>
+				<h2>Text Layout</h2>
+				<p>Simple <del> Plan </del> Text </p>
+				<p> 2<sup>8</sup> = 2<sub>	8	</sub>6 </p>
+				<br> 
+				<s> Wrong </s>
+				<br>
+				<u> Yep!</u>
+				</br>	
+				<i>	Italic </i>
+				<br>
+				<b>	Bold </b>
+				<br>
+				<strong> Big Guy </strong>
+				<br>
+				<em>Attention </em>
+				<br>
+				<mark> Marked </mark>
+				<br>
+				<font size="1"> text size </font>
+				<br>
+				<p>
+					<pre> 
+#include <stdio.h> 
+	Main() <br> 
+	{
+	<br> 
+		printf("As in code")
+	} 
+	<br>
+					</pre> 
+				</p> 
+				<br>
+				<hr>
+			</div>
+			<div>
+				<h2>List 1 </h2>
+				<ul>
+					<li>Without type </li>
+						<ul>
+							<li>Subiten 1</li>
+							<li>Subiten 2</li>
+						</ul>
+					<li>Capital letter </li>
+						<ul type="A">
+							<li>Subiten 1</li>
+							<li>Subiten 2</li>
+						</ul>
+					<li>Small letter</li>
+						<ul type="a">
+							<li>Subiten 1</li>
+							<li>Subiten 2</li>
+						</ul>
+					<li>Capital Roman </li>
+						<ul type="I">
+							<li>Subiten 1</li>
+							<li>Subiten 2</li>
+						</ul>
+					<li>Small Roman</li>
+						<ul type="i">
+							<li>Subiten 1</li>
+							<li>Subiten 2</li>
+						</ul>
+					<li> Number and starting position</li>
+						<ol start="20">
+							<li>Subiten 1</li>
+							<li>Subiten 2</li>
+						</ol>
+				</ul>
+				<br>
+				<h2>List 2</h2>
+				<dl>
+					<dt>Topic 1</dt>
+					<dd>Iten 1 </dd>
+					<dd>Iten 2 </dd>
+					<dt>Topic 2</dt>
+					<dd>Iten 1 </dd>
+					<dd>Iten 2 </dd>
+
+				</dl>
+				<br>
+				<hr>
+			</div>
+			<div>
+				<h2> Table 1 </h2>
+				<table border="1">
+					<thead>
+						<tr>
+							<td>X</td>
+							<td>X</td>
+							<td>X</td>
+							<td>X</td>
+						</tr>
+						<tr>
+							<td>X</td>
+							<th rowspan="2" colspan="2">X</th>
+							<td>X</td>
+						</tr>
+						<tr>
+							<td>X</td>
+							<td>X</td>
+						</tr>
+						<tr>				
+							<td>X</td>
+							<td>X</td>
+							<td>X</td>
+							<td>X</td>
+						</tr>
+					</thead>
+				</table>
+				
+				<h2> Table 2 </h2>
+				<table border="1">
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>6</td>
+							<td>7</td>
+							<td>8</td>
+						</tr>
+						<tr>				
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+						</tr>
+						<tr>				
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+						</tr>
+					</tbody>
+				</table>
+				<br>
+				<hr>
+			</div>
+			<div>
+				<h2> Form </h2>
+				<form action="" method="get">
+					<fieldset>
+						<legend>Data</legend>
+						<label for="nome">Gotted: </label>
+						<input type="text" name="" id="" value="pre-set value" autofocos required>
+						<br>
+						<label for="adress">Place Holder </label>
+						<input type="text" name="Adress" id="adress" placeholder="pra-set text">
+						<br>
+						<label for="options">Chose: </label>
+						<select name="options" id="options">
+							<option value="o1" selected>Option 1</option>
+							<option value="o2">Option 2</option>
+							<option value="o3">Option 3</option>
+						</select><br>
+						<label>Select:</label> <br>
+						<input type="radio" name="a" id="a">
+						<label for="a"> Chose</label>
+						<input type="checkbox" name="b" id="b">
+						<label for="b">Check</label>
+
+						<br>
+						<label for="fieldTxt">Texfield:</label><br>
+						<textarea name="fieldTxt" id="fieldTxt" cols="40"
+						rows="4"></textarea><br>
+						<label for="list" > Chose: </label>
+						<input id="list" list="listDat"
+						name="list">
+						<datalist id="listDat">
+							<option value="1"></option>
+							<option value="2"></option>
+							<option value="3"></option>
+						</datalist><br>
+						
+					</fieldset>
+						<br>
+						<input type="submit" value="Submit">
+						<input type="reset" value="Clear">
+				</form>
+				<br>
+				<hr>
+			</div>
+			<div>
+				<h2> Multimedia and imports </h2>
+				<figure>
+					<a href="https://gitlab.com/PatoAssado">
+						<img src="media/dunsparce.png" alt="Pokemon"
+						height="420" width="420"/>
+						</a>
+					<iframe src="https://gitlab.com/PatoAssado"
+					height="200" width="500"
+					title="gitlab"></iframe>
+					<br>
+					<video width="320" height="240" controls autoplay muted>
+						<source src="media/DonkeyKong.mp4" type="video/mp4">
+						Seu navegador não suporta o elemento vídeo.
+					</video>
+					<br>
+					<audio controls play>
+					<!-- <audio controls autoplay> for start the audio when you get in the page-->
+						<source src="media/NyanCat.mp3" type="audio/ogg">
+						<source src="media/NyanCat.ogg" type="audio/mpeg">
+						Seu navegador não suporta o elemento áudio.
+					</audio>
+					<br>
+					<iframe width="420" height="315"
+					src="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+					</iframe>
+				</figure>
+				<br>
+			</div>
+			<hr>			
+		</article>
+	</section>
+	<footer> END </footer>
+  </body>
+</html>
