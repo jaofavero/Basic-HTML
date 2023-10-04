@@ -1,3 +1,7 @@
-Author: João V M Favero
+# Resume about the basic of HTML
 
-Resume about HTML
+### Authors
+- [João Victor Marques Favero](https://github.com/jaofavero)
+
+#### Origin
+  https://gitlab.com/JoaoFavero/html
